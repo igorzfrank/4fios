@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catálogo Minimalista</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <img src="img/logo.png" alt="" />
+      <h1>4Fios</h1>
+    </header>
+
+    <div class="container">
+      <div class="catalog" id="catalog">
+        <!-- Item 1 -->
+        <div class="catalog-item" data-index="1">
+          <div class="image-slider">
+            <div class="slider-container">
+              <img
+                src="img/t01-01.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 1"
+              />
+              <img
+                src="img/t01-02.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 2"
+              />
+              <img
+                src="img/t01-03.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 3"
+              />
+              <img
+                src="img/t01-04.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 4"
+              />
+            </div>
+            <div class="slider-nav">
+              <span class="slider-dot active"></span>
+              <span class="slider-dot"></span>
+              <span class="slider-dot"></span>
+              <span class="slider-dot"></span>
+            </div>
+          </div>
+          <div class="catalog-item-content">
+            <h3 class="catalog-item-title">Oversized Marrom Full Dois Leões</h3>
+            <div class="color-options">
+              <p>Cores Disponíveis:</p>
+              <div class="color-option">
+                <div
+                  class="color-square"
+                  style="background-color: #74493a"
+                ></div>
+                <span class="color-label">Marrom</span>
+              </div>
+              <div class="color-option">
+                <div
+                  class="color-square"
+                  style="background-color: #000000"
+                ></div>
+                <span class="color-label">Preto</span>
+              </div>
+              <div class="color-option">
+                <div
+                  class="color-square"
+                  style="background-color: #ffffff; border: 1px solid #ddd"
+                ></div>
+                <span class="color-label">Off white</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Item 2 -->
+        <div class="catalog-item" data-index="2">
+          <div class="image-slider">
+            <div class="slider-container">
+              <img
+                src="img/t02-01.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 1"
+              />
+              <img
+                src="img/t02-02.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 2"
+              />
+              <img
+                src="img/t02-03.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 3"
+              />
+              <img
+                src="img/t02-04.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 4"
+              />
+            </div>
+            <div class="slider-nav">
+              <span class="slider-dot active"></span>
+              <span class="slider-dot"></span>
+              <span class="slider-dot"></span>
+              <span class="slider-dot"></span>
+            </div>
+          </div>
+          <div class="catalog-item-content">
+            <h3 class="catalog-item-title">
+              Oversized Off White Full Apenas Volte Para Casa!
+            </h3>
+            <div class="color-options">
+              <p>Cores Disponíveis:</p>
+              <div class="color-option">
+                <div
+                  class="color-square"
+                  style="background-color: #ffffff; border: 1px solid #ddd"
+                ></div>
+                <span class="color-label">Off white</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Item 3 -->
+        <div class="catalog-item" data-index="3">
+          <div class="image-slider">
+            <div class="slider-container">
+              <img
+                src="img/t03-01.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 1"
+              />
+              <img
+                src="img/t03-02.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 2"
+              />
+              <img
+                src="img/t03-03.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 3"
+              />
+              <img
+                src="img/t03-04.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 4"
+              />
+            </div>
+            <div class="slider-nav">
+              <span class="slider-dot active"></span>
+              <span class="slider-dot"></span>
+              <span class="slider-dot"></span>
+              <span class="slider-dot"></span>
+            </div>
+          </div>
+          <div class="catalog-item-content">
+            <h3 class="catalog-item-title">
+              Oversized Marrom Full Saved By Grace
+            </h3>
+            <div class="color-options">
+              <p>Cores Disponíveis:</p>
+              <div class="color-option">
+                <div
+                  class="color-square"
+                  style="background-color: #74493a"
+                ></div>
+                <span class="color-label">Marrom</span>
+              </div>
+              <div class="color-option">
+                <div
+                  class="color-square"
+                  style="background-color: #000000"
+                ></div>
+                <span class="color-label">Preto</span>
+              </div>
+              <div class="color-option">
+                <div
+                  class="color-square"
+                  style="background-color: #ffffff; border: 1px solid #ddd"
+                ></div>
+                <span class="color-label">Off white</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Itens ocultos inicialmente -->
+        <!-- Item 4 -->
+        <div class="catalog-item" data-index="4">
+          <div class="image-slider">
+            <div class="slider-container">
+              <img
+                src="img/t04-01.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 1"
+              />
+              <img
+                src="img/t04-02.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 2"
+              />
+              <img
+                src="img/t04-03.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 3"
+              />
+              <img
+                src="img/t04-04.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 4"
+              />
+            </div>
+            <div class="slider-nav">
+              <span class="slider-dot active"></span>
+              <span class="slider-dot"></span>
+              <span class="slider-dot"></span>
+              <span class="slider-dot"></span>
+            </div>
+          </div>
+          <div class="catalog-item-content">
+            <h3 class="catalog-item-title">
+              Oversized Preta Full Jesus Is King Azul
+            </h3>
+            <div class="color-options">
+              <p>Cores Disponíveis:</p>
+              <div class="color-option">
+                <div
+                  class="color-square"
+                  style="background-color: #000000"
+                ></div>
+                <span class="color-label">Preto</span>
+              </div>
+              <div class="color-option">
+                <div
+                  class="color-square"
+                  style="background-color: #ffffff; border: 1px solid #ddd"
+                ></div>
+                <span class="color-label">Off white</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="catalog-item" data-index="5">
+          <div class="image-slider">
+            <div class="slider-container">
+              <img
+                src="img/t05-01.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 1"
+              />
+              <img
+                src="img/t05-02.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 2"
+              />
+              <img
+                src="img/t05-03.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 3"
+              />
+              <img
+                src="img/t05-04.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 4"
+              />
+            </div>
+            <div class="slider-nav">
+              <span class="slider-dot active"></span>
+              <span class="slider-dot"></span>
+              <span class="slider-dot"></span>
+              <span class="slider-dot"></span>
+            </div>
+          </div>
+          <div class="catalog-item-content">
+            <h3 class="catalog-item-title">
+              Oversized Preta Full Ide Por Todo Mundo
+            </h3>
+            <div class="color-options">
+              <p>Cores Disponíveis:</p>
+              <div class="color-option">
+                <div
+                  class="color-square"
+                  style="background-color: #74493a"
+                ></div>
+                <span class="color-label">Marrom</span>
+              </div>
+              <div class="color-option">
+                <div
+                  class="color-square"
+                  style="background-color: #000000"
+                ></div>
+                <span class="color-label">Preto</span>
+              </div>
+              <div class="color-option">
+                <div
+                  class="color-square"
+                  style="background-color: #ffffff; border: 1px solid #ddd"
+                ></div>
+                <span class="color-label">Off white</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 6 -->
+        <div class="catalog-item" data-index="6">
+          <div class="image-slider">
+            <div class="slider-container">
+              <img
+                src="img/t06-01.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 1"
+              />
+              <img
+                src="img/t06-02.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 2"
+              />
+              <img
+                src="img/t06-03.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 3"
+              />
+              <img
+                src="img/t06-04.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 4"
+              />
+            </div>
+            <div class="slider-nav">
+              <span class="slider-dot active"></span>
+              <span class="slider-dot"></span>
+              <span class="slider-dot"></span>
+              <span class="slider-dot"></span>
+            </div>
+          </div>
+          <div class="catalog-item-content">
+            <h3 class="catalog-item-title">
+              Oversized Off White Full IDE Por Todo Mundo E Pregai O Evangelho
+            </h3>
+            <div class="color-options">
+              <p>Cores Disponíveis:</p>
+              <div class="color-option">
+                <div
+                  class="color-square"
+                  style="background-color: #74493a"
+                ></div>
+                <span class="color-label">Marrom</span>
+              </div>
+              <div class="color-option">
+                <div
+                  class="color-square"
+                  style="background-color: #000000"
+                ></div>
+                <span class="color-label">Preto</span>
+              </div>
+              <div class="color-option">
+                <div
+                  class="color-square"
+                  style="background-color: #ffffff; border: 1px solid #ddd"
+                ></div>
+                <span class="color-label">Off white</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 7 -->
+        <div class="catalog-item hidden" data-index="7">
+          <div class="image-slider">
+            <div class="slider-container">
+              <img
+                src="img/t07-01.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 1"
+              />
+              <img
+                src="img/t07-02.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 2"
+              />
+              <img
+                src="img/t07-03.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 3"
+              />
+              <img
+                src="img/t07-04.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 4"
+              />
+            </div>
+            <div class="slider-nav">
+              <span class="slider-dot active"></span>
+              <span class="slider-dot"></span>
+              <span class="slider-dot"></span>
+              <span class="slider-dot"></span>
+            </div>
+          </div>
+          <div class="catalog-item-content">
+            <h3 class="catalog-item-title">
+              Oversized Marrom Full O Amor De Cristo Nos Uniu
+            </h3>
+            <div class="color-options">
+              <p>Cores Disponíveis:</p>
+              <div class="color-option">
+                <div
+                  class="color-square"
+                  style="background-color: #74493a"
+                ></div>
+                <span class="color-label">Marrom</span>
+              </div>
+              <div class="color-option">
+                <div
+                  class="color-square"
+                  style="background-color: #000000"
+                ></div>
+                <span class="color-label">Preto</span>
+              </div>
+              <div class="color-option">
+                <div
+                  class="color-square"
+                  style="background-color: #ffffff; border: 1px solid #ddd"
+                ></div>
+                <span class="color-label">Off white</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 8 -->
+        <div class="catalog-item hidden" data-index="8">
+          <div class="image-slider">
+            <div class="slider-container">
+              <img
+                src="img/t08-01.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 1"
+              />
+              <img
+                src="img/t08-02.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 2"
+              />
+              <img
+                src="img/t08-03.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 3"
+              />
+              <img
+                src="img/t08-04.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 4"
+              />
+            </div>
+            <div class="slider-nav">
+              <span class="slider-dot active"></span>
+              <span class="slider-dot"></span>
+              <span class="slider-dot"></span>
+              <span class="slider-dot"></span>
+            </div>
+          </div>
+          <div class="catalog-item-content">
+            <h3 class="catalog-item-title">
+              Oversized Off White Full Palavra Espírito Santo
+            </h3>
+            <div class="color-options">
+              <p>Cores Disponíveis:</p>
+              <div class="color-option">
+                <div
+                  class="color-square"
+                  style="background-color: #ffffff; border: 1px solid #ddd"
+                ></div>
+                <span class="color-label">Off white</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 9 -->
+        <div class="catalog-item hidden" data-index="9">
+          <div class="image-slider">
+            <div class="slider-container">
+              <img
+                src="img/t09-01.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 1"
+              />
+              <img
+                src="img/t09-02.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 2"
+              />
+              <img
+                src="img/t09-03.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 3"
+              />
+              <img
+                src="img/t09-04.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 4"
+              />
+            </div>
+            <div class="slider-nav">
+              <span class="slider-dot active"></span>
+              <span class="slider-dot"></span>
+              <span class="slider-dot"></span>
+              <span class="slider-dot"></span>
+            </div>
+          </div>
+          <div class="catalog-item-content">
+            <h3 class="catalog-item-title">
+              Oversized Off White Full Yahweh Hesed
+            </h3>
+            <div class="color-options">
+              <p>Cores Disponíveis:</p>
+              <div class="color-option">
+                <div
+                  class="color-square"
+                  style="background-color: #ffffff; border: 1px solid #ddd"
+                ></div>
+                <span class="color-label">Off white</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 10 -->
+        <div class="catalog-item hidden" data-index="10">
+          <div class="image-slider">
+            <div class="slider-container">
+              <img
+                src="img/t10-01.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 1"
+              />
+              <img
+                src="img/t10-02.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 2"
+              />
+              <img
+                src="img/t10-03.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 3"
+              />
+              <img
+                src="img/t10-04.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 4"
+              />
+            </div>
+            <div class="slider-nav">
+              <span class="slider-dot active"></span>
+              <span class="slider-dot"></span>
+              <span class="slider-dot"></span>
+              <span class="slider-dot"></span>
+            </div>
+          </div>
+          <div class="catalog-item-content">
+            <h3 class="catalog-item-title">
+              Oversized Off White Full Leão Cruz Cinza
+            </h3>
+            <div class="color-options">
+              <p>Cores Disponíveis:</p>
+              <div class="color-option">
+                <div
+                  class="color-square"
+                  style="background-color: #ffffff; border: 1px solid #ddd"
+                ></div>
+                <span class="color-label">Off white</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 11 -->
+        <div class="catalog-item hidden" data-index="11">
+          <div class="image-slider">
+            <div class="slider-container">
+              <img
+                src="img/t11-01.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 1"
+              />
+              <img
+                src="img/t11-02.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 2"
+              />
+              <img
+                src="img/t11-03.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 3"
+              />
+              <img
+                src="img/t11-04.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 4"
+              />
+            </div>
+            <div class="slider-nav">
+              <span class="slider-dot active"></span>
+              <span class="slider-dot"></span>
+              <span class="slider-dot"></span>
+              <span class="slider-dot"></span>
+            </div>
+          </div>
+          <div class="catalog-item-content">
+            <h3 class="catalog-item-title">
+              Oversized Off White Full Cruz Foi Por Você!
+            </h3>
+            <div class="color-options">
+              <p>Cores Disponíveis:</p>
+              <div class="color-option">
+                <div
+                  class="color-square"
+                  style="background-color: #74493a"
+                ></div>
+                <span class="color-label">Marrom</span>
+              </div>
+              <div class="color-option">
+                <div
+                  class="color-square"
+                  style="background-color: #000000"
+                ></div>
+                <span class="color-label">Preto</span>
+              </div>
+              <div class="color-option">
+                <div
+                  class="color-square"
+                  style="background-color: #ffffff; border: 1px solid #ddd"
+                ></div>
+                <span class="color-label">Off white</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 12 -->
+        <div class="catalog-item hidden" data-index="12">
+          <div class="image-slider">
+            <div class="slider-container">
+              <img
+                src="img/t12-01.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 1"
+              />
+              <img
+                src="img/t12-02.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 2"
+              />
+              <img
+                src="img/t12-03.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 3"
+              />
+              <img
+                src="img/t12-04.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 4"
+              />
+            </div>
+            <div class="slider-nav">
+              <span class="slider-dot active"></span>
+              <span class="slider-dot"></span>
+              <span class="slider-dot"></span>
+              <span class="slider-dot"></span>
+            </div>
+          </div>
+          <div class="catalog-item-content">
+            <h3 class="catalog-item-title">
+              Oversized Marrom Full Guarda Teu Coração Prov 4:23
+            </h3>
+            <div class="color-options">
+              <p>Cores Disponíveis:</p>
+              <div class="color-option">
+                <div
+                  class="color-square"
+                  style="background-color: #74493a"
+                ></div>
+                <span class="color-label">Marrom</span>
+              </div>
+              <div class="color-option">
+                <div
+                  class="color-square"
+                  style="background-color: #000000"
+                ></div>
+                <span class="color-label">Preto</span>
+              </div>
+              <div class="color-option">
+                <div
+                  class="color-square"
+                  style="background-color: #ffffff; border: 1px solid #ddd"
+                ></div>
+                <span class="color-label">Off white</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 13 -->
+        <div class="catalog-item hidden" data-index="13">
+          <div class="image-slider">
+            <div class="slider-container">
+              <img
+                src="img/t13-01.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 1"
+              />
+              <img
+                src="img/t13-02.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 2"
+              />
+              <img
+                src="img/t13-03.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 3"
+              />
+              <img
+                src="img/t13-04.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 4"
+              />
+            </div>
+            <div class="slider-nav">
+              <span class="slider-dot active"></span>
+              <span class="slider-dot"></span>
+              <span class="slider-dot"></span>
+              <span class="slider-dot"></span>
+            </div>
+          </div>
+          <div class="catalog-item-content">
+            <h3 class="catalog-item-title">
+              Oversized Off White Full Cristo Cruz
+            </h3>
+            <div class="color-options">
+              <p>Cores Disponíveis:</p>
+              <div class="color-option">
+                <div
+                  class="color-square"
+                  style="background-color: #ffffff; border: 1px solid #ddd"
+                ></div>
+                <span class="color-label">Off white</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 14 -->
+        <div class="catalog-item hidden" data-index="14">
+          <div class="image-slider">
+            <div class="slider-container">
+              <img
+                src="img/t14-01.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 1"
+              />
+              <img
+                src="img/t14-02.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 2"
+              />
+              <img
+                src="img/t14-03.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 3"
+              />
+              <img
+                src="img/t14-04.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 4"
+              />
+            </div>
+            <div class="slider-nav">
+              <span class="slider-dot active"></span>
+              <span class="slider-dot"></span>
+              <span class="slider-dot"></span>
+              <span class="slider-dot"></span>
+            </div>
+          </div>
+          <div class="catalog-item-content">
+            <h3 class="catalog-item-title">
+              Oversized Off White Full Jesus Is King Coroa
+            </h3>
+            <div class="color-options">
+              <p>Cores Disponíveis:</p>
+              <div class="color-option">
+                <div
+                  class="color-square"
+                  style="background-color: #74493a"
+                ></div>
+                <span class="color-label">Marrom</span>
+              </div>
+              <div class="color-option">
+                <div
+                  class="color-square"
+                  style="background-color: #000000"
+                ></div>
+                <span class="color-label">Preto</span>
+              </div>
+              <div class="color-option">
+                <div
+                  class="color-square"
+                  style="background-color: #ffffff; border: 1px solid #ddd"
+                ></div>
+                <span class="color-label">Off white</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 15 -->
+        <div class="catalog-item hidden" data-index="15">
+          <div class="image-slider">
+            <div class="slider-container">
+              <img
+                src="img/t15-01.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 1"
+              />
+              <img
+                src="img/t15-02.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 2"
+              />
+              <img
+                src="img/t15-03.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 3"
+              />
+              <img
+                src="img/t15-04.jpg"
+                class="slider-image"
+                alt="Produto 1 - Foto 4"
+              />
+            </div>
+            <div class="slider-nav">
+              <span class="slider-dot active"></span>
+              <span class="slider-dot"></span>
+              <span class="slider-dot"></span>
+              <span class="slider-dot"></span>
+            </div>
+          </div>
+          <div class="catalog-item-content">
+            <h3 class="catalog-item-title">
+              Oversized Preta Full 70X7
+            </h3>
+            <div class="color-options">
+              <p>Cores Disponíveis:</p>
+              <div class="color-option">
+                <div
+                  class="color-square"
+                  style="background-color: #74493a"
+                ></div>
+                <span class="color-label">Marrom</span>
+              </div>
+              <div class="color-option">
+                <div
+                  class="color-square"
+                  style="background-color: #000000"
+                ></div>
+                <span class="color-label">Preto</span>
+              </div>
+              <div class="color-option">
+                <div
+                  class="color-square"
+                  style="background-color: #ffffff; border: 1px solid #ddd"
+                ></div>
+                <span class="color-label">Off white</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button id="loadMore" class="btn btn-load-more">Ver mais</button>
+    </div>
+
+    <footer>
+      <div class="footer-content">
+        <ul class="footer-links">
+          <li><a href="#">Início</a></li>
+        </ul>
+        <p class="copyright">
+          © 2025 Catálogo 4.Fios. <br> Todos os direitos reservados.
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      $(document).ready(function () {
+        // Initialize sliders
+        $(".image-slider").each(function () {
+          const slider = $(this);
+          const container = slider.find(".slider-container");
+          const images = container.find(".slider-image");
+          const dots = slider.find(".slider-dot");
+          let currentIndex = 0;
+
+          // Set initial active dot
+          dots.first().addClass("active");
+
+          // Click handler for dots
+          dots.click(function () {
+            currentIndex = $(this).index();
+            container.css("transform", `translateX(-${currentIndex * 100}%)`);
+            dots.removeClass("active");
+            $(this).addClass("active");
+          });
+
+          // Auto-rotate every 3 seconds
+          setInterval(() => {
+            currentIndex = (currentIndex + 1) % images.length;
+            container.css("transform", `translateX(-${currentIndex * 100}%)`);
+            dots.removeClass("active");
+            dots.eq(currentIndex).addClass("active");
+          }, 3000);
+        });
+        // Mostrar 3 itens iniciais (já estão visíveis pelo HTML)
+        let itemsToShow = 3;
+        let totalItems = $(".catalog-item").length;
+        let shownItems = $(".catalog-item:not(.hidden)").length;
+
+        // Atualizar botão caso não haja mais itens para mostrar
+        if (shownItems >= totalItems) {
+          $("#loadMore").hide();
+        }
+
+        // Função para mostrar mais itens
+        $("#loadMore").click(function () {
+          let hiddenItems = $(".catalog-item.hidden");
+          let nextItemsToShow = Math.min(3, hiddenItems.length);
+
+          for (let i = 0; i < nextItemsToShow; i++) {
+            $(hiddenItems[i]).removeClass("hidden");
+          }
+
+          shownItems += nextItemsToShow;
+
+          // Se todos os itens estiverem visíveis, esconder o botão
+          if (shownItems >= totalItems) {
+            $("#loadMore").hide();
+          }
+
+          // Rolar suavemente para os novos itens
+          // $("html, body").animate(
+          //   {
+          //     scrollTop: $(this).offset().top - 100,
+          //   },
+          //   500
+          // );
+        });
+      });
+    </script>
+  </body>
+</html>
